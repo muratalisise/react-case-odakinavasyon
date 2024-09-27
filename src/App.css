@@ -1,0 +1,81 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background-image: linear-gradient(to right, #4a90e2, #50e3c2);
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+.login-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.login-box {
+	background-color: #ffffff;
+	padding: 40px;
+	border-radius: 15px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	width: 400px;
+	text-align: center;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-box:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h2 {
+	margin-bottom: 30px;
+	color: #333333;
+}
+
+.login-box input {
+	width: 100%;
+	padding: 15px;
+	margin: 10px 0;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	font-size: 16px;
+	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-box input:focus {
+	border-color: #4a90e2;
+	outline: none;
+	box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+.login-box button {
+	width: 100%;
+	padding: 15px;
+	background-color: #4a90e2;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+	margin-top: 20px;
+}
+
+.login-box button:hover {
+	background-color: #3a7bc1;
+}
+
+.forgot-password {
+	margin-top: 15px;
+}
+
+.forgot-password a {
+	color: #4a90e2;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.forgot-password a:hover {
+	text-decoration: underline;
+}
